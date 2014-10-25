@@ -1,1 +1,99 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: ‘Courier New’, Courier, monospace;
+  font-weight: 300;    
+  color: #434343;
+  background-color: #fffffd;
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: lighter;
+  font-variant: normal;  
+}
+
+h1 {
+  font-family: 'Hannahs Messy Handwriting';
+  font-size: 200px;
+  font-size: 22vw;
+  color: #9d0f19;
+  opacity: 0.9;
+  letter-spacing: -0.07em;
+  word-spacing: -0.15em;  
+  text-shadow: 4px 4px 20px rgba(150, 150, 150, 1);
+  margin-bottom: -0.5%;
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: lighter;
+  font-variant: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #268bd2;
+}
+
+/* sticky footer */
+
+#page-wrap {
+  min-height: 100%;
+  margin-bottom: -50px; 
+}
+
+#page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, #page-wrap:after {
+  height: 50px; 
+}
+
+footer p {
+  font-size: 9px;
+}
+
+/* general purpose nav */
+
+.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  word-spacing: -0.3em;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+img {
+  max-width: 80%;
+  margin-top: 18px;
+}
+
+/* global styles */
+
+.center {
+  text-align: center;
+}
+
+.kerned {
+  font-family: "Lucida Grande", Tahoma;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;  
+}
