@@ -1,4 +1,4 @@
-## [Killer Kill](killerkill.me)
+## [Killer Kill](http://killerkill.me)
 ### my punk band's website
 
 **Tech**
@@ -9,6 +9,5 @@
 
 **Deployment**
 
-* Ubuntu 14 Server
+* Ubuntu 13 Server
 * Apache Passenger
-* Thin
